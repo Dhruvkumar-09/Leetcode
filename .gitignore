@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C / C++ / Java build artifacts
+*.exe
+*.out
+*.o
+*.class
+
+# Node / JS
+node_modules/
+
+# Environments & Virtual Envs
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Inbox temporary files (keep .gitkeep)
+inbox/*
+!inbox/.gitkeep
