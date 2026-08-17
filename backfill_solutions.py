@@ -666,8 +666,8 @@ def main():
     # Display detected order
     display_detected_order(ordered_items, source_desc)
 
-    # Interactive Confirmation / Reordering if not --yes
-    if not args.yes:
+    # If dry-run or --yes, skip interactive modification unless missing critical fields
+    if not args.dry_run and not args.yes:
         confirm = input(f"\n{Colors.BOLD}Is this solve order correct? ([Y]es / [r]eorder / [q]uit): {Colors.RESET}").strip().lower()
         if confirm in ["q", "quit"]:
             print("Operation aborted by user.")
@@ -686,10 +686,9 @@ def main():
             except Exception as e:
                 print(f"{Colors.RED}{WARN} Failed to parse reordering: {e}. Keeping previous order.{Colors.RESET}")
 
-    # Fill in missing numbers or titles interactively if needed
-    for idx, it in enumerate(ordered_items, 1):
-        if not it["number"] or not it["title"] or not args.yes:
-            if not args.yes:
+        # Fill in missing numbers or titles interactively if needed
+        for idx, it in enumerate(ordered_items, 1):
+            if not it["number"] or not it["title"]:
                 ordered_items[idx - 1] = prompt_user_for_details(it, idx, len(ordered_items))
 
     # 4. Consecutive Date Mapping (1 commit/day ending today)
@@ -709,6 +708,7 @@ def main():
     if args.dry_run:
         print(f"\n{Colors.YELLOW}{INFO} [DRY-RUN MODE] No files were moved and no git commits were created.{Colors.RESET}")
         return
+
 
     # Final execution prompt if not --yes
     if not args.yes:
