@@ -26,6 +26,19 @@ SOLUTIONS_DIR = REPO_ROOT / "solutions"
 INBOX_DIR = REPO_ROOT / "inbox"
 README_FILE = REPO_ROOT / "README.md"
 
+# Configure UTF-8 for standard output on Windows
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stderr.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
+# Safe status symbols
+CHECK = "[OK]"
+WARN = "[!]"
+INFO = "[i]"
+
 # ANSI Colors for clean terminal output
 class Colors:
     HEADER = "\033[95m"
@@ -41,10 +54,11 @@ class Colors:
 
 def print_banner():
     print(f"{Colors.CYAN}{Colors.BOLD}")
-    print("╔══════════════════════════════════════════════════════════════╗")
-    print("║             ⚡ LEETCODE SOLUTION AUTOMATOR ⚡                ║")
-    print("╚══════════════════════════════════════════════════════════════╝")
+    print("================================================================")
+    print("             LEETCODE SOLUTION AUTOMATOR & TRACKER              ")
+    print("================================================================")
     print(f"{Colors.RESET}")
+
 
 
 def slugify(text: str) -> str:
@@ -275,37 +289,37 @@ def update_readme_stats(problems: Optional[List[Dict]] = None) -> bool:
             new_content = content + "\n\n" + stats_markdown
 
         README_FILE.write_text(new_content, encoding="utf-8")
-        print(f"{Colors.GREEN}[✓] README.md statistics successfully updated! (Total: {total}){Colors.RESET}")
+        print(f"{Colors.GREEN}{CHECK} README.md statistics successfully updated! (Total: {total}){Colors.RESET}")
         return True
     except Exception as e:
-        print(f"{Colors.RED}[!] Failed to update README.md: {e}{Colors.RESET}")
+        print(f"{Colors.RED}{WARN} Failed to update README.md: {e}{Colors.RESET}")
         return False
 
 
 def run_git_commands(problem_num: str, title: str, difficulty: str, no_push: bool = False):
     """Execute git add, commit, and push."""
-    print(f"\n{Colors.CYAN}{Colors.BOLD}📦 Running Git Automation...{Colors.RESET}")
+    print(f"\n{Colors.CYAN}{Colors.BOLD}--> Running Git Automation...{Colors.RESET}")
     commit_msg = f"Solve {problem_num}: {title} [{difficulty.capitalize()}]"
 
     # Git Add
     try:
         subprocess.run(["git", "add", "."], cwd=REPO_ROOT, check=True)
-        print(f"{Colors.GREEN}[✓] git add .{Colors.RESET}")
+        print(f"{Colors.GREEN}{CHECK} git add .{Colors.RESET}")
     except subprocess.CalledProcessError as e:
-        print(f"{Colors.RED}[!] git add failed: {e}{Colors.RESET}")
+        print(f"{Colors.RED}{WARN} git add failed: {e}{Colors.RESET}")
         return False
 
     # Git Commit
     try:
         subprocess.run(["git", "commit", "-m", commit_msg], cwd=REPO_ROOT, check=True)
-        print(f"{Colors.GREEN}[✓] git commit -m \"{commit_msg}\"{Colors.RESET}")
+        print(f"{Colors.GREEN}{CHECK} git commit -m \"{commit_msg}\"{Colors.RESET}")
     except subprocess.CalledProcessError:
         # Check if working tree clean
-        print(f"{Colors.YELLOW}[i] No new changes to commit.{Colors.RESET}")
+        print(f"{Colors.YELLOW}{INFO} No new changes to commit.{Colors.RESET}")
 
     # Git Push
     if no_push:
-        print(f"{Colors.DIM}[i] Skipped git push (--no-push flag active){Colors.RESET}")
+        print(f"{Colors.DIM}{INFO} Skipped git push (--no-push flag active){Colors.RESET}")
         return True
 
     print(f"{Colors.CYAN}[...] Attempting git push...{Colors.RESET}")
@@ -318,14 +332,14 @@ def run_git_commands(problem_num: str, title: str, difficulty: str, no_push: boo
             timeout=15
         )
         if result.returncode == 0:
-            print(f"{Colors.GREEN}[✓] git push successful!{Colors.RESET}")
+            print(f"{Colors.GREEN}{CHECK} git push successful!{Colors.RESET}")
         else:
-            print(f"{Colors.YELLOW}[!] git push did not complete: {result.stderr.strip()}{Colors.RESET}")
+            print(f"{Colors.YELLOW}{WARN} git push did not complete: {result.stderr.strip()}{Colors.RESET}")
             print(f"{Colors.DIM}    Hint: If remote origin is not configured yet, connect it via:{Colors.RESET}")
             print(f"{Colors.DIM}    git remote add origin https://github.com/<username>/leetcode.git{Colors.RESET}")
             print(f"{Colors.DIM}    git push -u origin main{Colors.RESET}")
     except Exception as e:
-        print(f"{Colors.YELLOW}[!] git push skipped or timed out: {e}{Colors.RESET}")
+        print(f"{Colors.YELLOW}{WARN} git push skipped or timed out: {e}{Colors.RESET}")
 
     return True
 
@@ -350,7 +364,7 @@ def interactive_prompt(args_file: Optional[str] = None) -> Tuple[Path, str, str,
     if args_file:
         source_file = Path(args_file).resolve()
         if not source_file.exists():
-            print(f"{Colors.RED}[!] Specified file does not exist: {source_file}{Colors.RESET}")
+            print(f"{Colors.RED}{WARN} Specified file does not exist: {source_file}{Colors.RESET}")
             sys.exit(1)
     else:
         inbox_files = find_inbox_files()
@@ -382,7 +396,7 @@ def interactive_prompt(args_file: Optional[str] = None) -> Tuple[Path, str, str,
             else:
                 print(f"{Colors.RED}File not found: {cand}. Please try again.{Colors.RESET}")
 
-    print(f"\n{Colors.GREEN}[✓] Using solution file: {Colors.BOLD}{source_file.name}{Colors.RESET}")
+    print(f"\n{Colors.GREEN}{CHECK} Using solution file: {Colors.BOLD}{source_file.name}{Colors.RESET}")
 
     # 2. Problem Number
     num_input = ""
@@ -444,7 +458,7 @@ def process_solution(
     target_dir = SOLUTIONS_DIR / folder_name
 
     target_dir.mkdir(parents=True, exist_ok=True)
-    print(f"\n{Colors.GREEN}[✓] Scaffolded directory: solutions/{folder_name}/{Colors.RESET}")
+    print(f"\n{Colors.GREEN}{CHECK} Scaffolded directory: solutions/{folder_name}/{Colors.RESET}")
 
     # Move or copy solution file
     dest_filename = f"solution{source_file.suffix}"
@@ -453,10 +467,10 @@ def process_solution(
     # If source is in inbox, move it; otherwise copy it
     if INBOX_DIR in source_file.parents or source_file.parent == INBOX_DIR:
         shutil.move(str(source_file), str(dest_path))
-        print(f"{Colors.GREEN}[✓] Moved inbox file -> solutions/{folder_name}/{dest_filename}{Colors.RESET}")
+        print(f"{Colors.GREEN}{CHECK} Moved inbox file -> solutions/{folder_name}/{dest_filename}{Colors.RESET}")
     else:
         shutil.copy2(str(source_file), str(dest_path))
-        print(f"{Colors.GREEN}[✓] Copied file -> solutions/{folder_name}/{dest_filename}{Colors.RESET}")
+        print(f"{Colors.GREEN}{CHECK} Copied file -> solutions/{folder_name}/{dest_filename}{Colors.RESET}")
 
     # Generate notes.md
     notes_content = generate_notes_md(
@@ -471,7 +485,7 @@ def process_solution(
     )
     notes_path = target_dir / "notes.md"
     notes_path.write_text(notes_content, encoding="utf-8")
-    print(f"{Colors.GREEN}[✓] Generated notes.md template!{Colors.RESET}")
+    print(f"{Colors.GREEN}{CHECK} Generated notes.md template!{Colors.RESET}")
 
     # Update README.md stats
     update_readme_stats()
@@ -479,7 +493,8 @@ def process_solution(
     # Git commit and push
     run_git_commands(num_str, title, difficulty, no_push=no_push)
 
-    print(f"\n{Colors.CYAN}{Colors.BOLD}🎉 Successfully tracked LeetCode #{int(num_str)}: {title}!{Colors.RESET}\n")
+    print(f"\n{Colors.CYAN}{Colors.BOLD}*** Successfully tracked LeetCode #{int(num_str)}: {title}! ***{Colors.RESET}\n")
+
 
 
 def main():

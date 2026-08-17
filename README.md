@@ -46,7 +46,7 @@ leetcode/
 
 | Total Solved | 🟢 Easy | 🟡 Medium | 🔴 Hard |
 | :---: | :---: | :---: | :---: |
-| **2** | **2** | **0** | **0** |
+| **3** | **3** | **0** | **0** |
 
 ---
 
@@ -56,6 +56,7 @@ leetcode/
 | :---: | :--- | :---: | :---: | :---: | :--- |
 | `0001` | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 `Easy` | [Python](solutions/0001-two-sum/solution.py) | [Notes](solutions/0001-two-sum/notes.md) | `Array`, `Hash Table` |
 | `0217` | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 `Easy` | [Python](solutions/0217-contains-duplicate/solution.py) | [Notes](solutions/0217-contains-duplicate/notes.md) | `Array`, `Hash Table`, `Sorting` |
+| `0242` | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 `Easy` | [Python](solutions/0242-valid-anagram/solution.py) | [Notes](solutions/0242-valid-anagram/notes.md) | `Hash Table`, `String`, `Sorting` |
 <!-- STATS:END -->
 
 ---
