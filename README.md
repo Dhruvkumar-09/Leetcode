@@ -151,6 +151,37 @@ python commit_solution.py --update-readme
 
 ---
 
+## ⏳ Backfilling Existing Problems (`backfill_solutions.py`)
+
+If you have a batch of already-solved problems stored locally and want to commit them to GitHub with a **chronologically backdated commit history (exactly 1 commit per day ending today)**:
+
+### How it works:
+1. **Solve Order Detection**:
+   - Reads `solve_order.txt` (or `backlog/solve_order.txt`) containing problem numbers or slugs in the order you solved them on LeetCode.
+   - If not found, falls back to local file timestamps.
+   - Interactive prompt lets you verify or re-order before proceeding.
+2. **Dynamic Uncommitted Detection**:
+   - Automatically compares `backlog/` against `/solutions` and identifies all pending problems.
+3. **Consecutive Date Mapping**:
+   - Maps $N$ pending problems to $N$ consecutive calendar days ($Today - (N-1)$ to $Today$) at 8:00 PM local time.
+4. **Local Commits & Safe Review**:
+   - Generates notes, moves files, updates README stats, and creates backdated git commits locally.
+   - Shows the full `git log` with timestamps and **waits for your confirmation** before pushing to GitHub.
+
+### Backfill Commands:
+```bash
+# 1. Preview solve order and date assignments without making changes
+python backfill_solutions.py --dry-run
+
+# 2. Run interactive backfill
+python backfill_solutions.py
+
+# 3. Non-interactive run (uses detected solve order & date mapping)
+python backfill_solutions.py --yes
+```
+
+---
+
 ## 🛠️ Setup & Git Configuration
 
 ### 1. Prerequisites
