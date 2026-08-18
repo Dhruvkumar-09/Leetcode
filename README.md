@@ -46,7 +46,7 @@ leetcode/
 
 | Total Solved | 🟢 Easy | 🟡 Medium | 🔴 Hard |
 | :---: | :---: | :---: | :---: |
-| **4** | **4** | **0** | **0** |
+| **5** | **5** | **0** | **0** |
 
 ---
 
@@ -55,6 +55,7 @@ leetcode/
 | # | Problem | Difficulty | Solution | Notes | Tags |
 | :---: | :--- | :---: | :---: | :---: | :--- |
 | `0001` | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 `Easy` | [Python](solutions/0001-two-sum/solution.py) | [Notes](solutions/0001-two-sum/notes.md) | `Array`, `Hash Table` |
+| `0020` | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 `Easy` | [Python](solutions/0020-valid-parentheses/solution.py) | [Notes](solutions/0020-valid-parentheses/notes.md) | `String`, `Stack` |
 | `0121` | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 `Easy` | [Python](solutions/0121-best-time-to-buy-and-sell-stock/solution.py) | [Notes](solutions/0121-best-time-to-buy-and-sell-stock/notes.md) | `Array`, `Dynamic Programming` |
 | `0217` | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 `Easy` | [Python](solutions/0217-contains-duplicate/solution.py) | [Notes](solutions/0217-contains-duplicate/notes.md) | `Array`, `Hash Table`, `Sorting` |
 | `0242` | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 `Easy` | [Python](solutions/0242-valid-anagram/solution.py) | [Notes](solutions/0242-valid-anagram/notes.md) | `Hash Table`, `String`, `Sorting` |
