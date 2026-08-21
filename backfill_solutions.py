@@ -133,6 +133,9 @@ def generate_notes_md(
     problem_url: Optional[str] = None,
 ) -> str:
     """Generate notes.md markdown content."""
+    if not num_str or not str(num_str).strip().isdigit():
+        raise ValueError(f"Missing problem number for file: {solution_filename}")
+
     slug = slugify(title)
     if not problem_url:
         problem_url = f"https://leetcode.com/problems/{slug}/"
@@ -556,6 +559,9 @@ def display_date_mapping(ordered_items: List[Dict], date_mappings: List[Tuple[Di
 def run_backdated_commit(item: Dict, commit_date_str: str) -> bool:
     """Create directory, move file, generate notes, update README, and git commit with backdated timestamp."""
     num_str = item["number"]
+    if not num_str or not str(num_str).strip().isdigit():
+        raise ValueError(f"Missing problem number for file: {item.get('filename', 'unknown')}")
+
     title = item["title"]
     difficulty = item["difficulty"]
     slug = item["slug"]
@@ -686,7 +692,8 @@ def main():
             except Exception as e:
                 print(f"{Colors.RED}{WARN} Failed to parse reordering: {e}. Keeping previous order.{Colors.RESET}")
 
-        # Fill in missing numbers or titles interactively if needed
+    # Fill in missing numbers or titles interactively if needed (always run when executing, even in --yes mode)
+    if not args.dry_run:
         for idx, it in enumerate(ordered_items, 1):
             if not it["number"] or not it["title"]:
                 ordered_items[idx - 1] = prompt_user_for_details(it, idx, len(ordered_items))
@@ -722,9 +729,14 @@ def main():
     success_count = 0
     for idx, (it, assigned_date, commit_dt_str) in enumerate(date_mappings, 1):
         print(f"\n[{idx}/{N}] Committing: {Colors.BOLD}{it['number']} - {it['title']}{Colors.RESET} (Assigned: {assigned_date.strftime('%Y-%m-%d')})")
-        if run_backdated_commit(it, commit_dt_str):
-            success_count += 1
-            print(f"{Colors.GREEN}{CHECK} Committed successfully!{Colors.RESET}")
+        try:
+            if run_backdated_commit(it, commit_dt_str):
+                success_count += 1
+                print(f"{Colors.GREEN}{CHECK} Committed successfully!{Colors.RESET}")
+            else:
+                print(f"{Colors.YELLOW}{WARN} Skipped committing {it.get('filename', 'unknown')} due to commit failure.{Colors.RESET}")
+        except Exception as e:
+            print(f"{Colors.RED}{WARN} Failed processing {it.get('filename', 'unknown')}: {e}. Skipping to next problem.{Colors.RESET}")
 
     print(f"\n{Colors.GREEN}{Colors.BOLD}🎉 Successfully created {success_count}/{N} backdated commits!{Colors.RESET}")
 
