@@ -237,6 +237,7 @@ git config --global credential.helper manager
 ## Two Pointers
 |  |
 | ------- |
+| [0027-remove-element](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0027-remove-element) |
 | [0151-reverse-words-in-a-string](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 ## String
 |  |
@@ -249,6 +250,7 @@ git config --global credential.helper manager
 ## Array
 |  |
 | ------- |
+| [0027-remove-element](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0027-remove-element) |
 | [1480-running-sum-of-1d-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1480-running-sum-of-1d-array) |
 ## Prefix Sum
 |  |
