@@ -248,6 +248,7 @@ git config --global credential.helper manager
 | ------- |
 | [0009-palindrome-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0009-palindrome-number) |
 | [0231-power-of-two](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0231-power-of-two) |
+| [0292-nim-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0292-nim-game) |
 | [0877-stone-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0877-stone-game) |
 ## Array
 |  |
@@ -279,13 +280,27 @@ git config --global credential.helper manager
 ## Minimax
 |  |
 | ------- |
+| [0292-nim-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0292-nim-game) |
 | [0877-stone-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0877-stone-game) |
 ## Game Theory
 |  |
 | ------- |
+| [0292-nim-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0292-nim-game) |
 | [0877-stone-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0877-stone-game) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [0877-stone-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0877-stone-game) |
+## Brainteaser
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0292-nim-game) |
+## Nim Game
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0292-nim-game) |
+## Impartial Game
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0292-nim-game) |
 <!---LeetCode Topics End-->
