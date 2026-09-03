@@ -239,6 +239,7 @@ git config --global credential.helper manager
 | ------- |
 | [0027-remove-element](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0027-remove-element) |
 | [0151-reverse-words-in-a-string](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0283-move-zeroes](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0283-move-zeroes) |
 ## String
 |  |
 | ------- |
@@ -256,6 +257,7 @@ git config --global credential.helper manager
 | ------- |
 | [0027-remove-element](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0035-search-insert-position) |
+| [0283-move-zeroes](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0283-move-zeroes) |
 | [0877-stone-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0877-stone-game) |
 | [1480-running-sum-of-1d-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1480-running-sum-of-1d-array) |
 | [3875-construct-uniform-parity-array-i](https://github.com/Dhruvkumar-09/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
