@@ -251,6 +251,7 @@ git config --global credential.helper manager
 | [0231-power-of-two](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0231-power-of-two) |
 | [0292-nim-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0292-nim-game) |
 | [0877-stone-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0877-stone-game) |
+| [2520-count-the-digits-that-divide-a-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/2520-count-the-digits-that-divide-a-number) |
 | [3875-construct-uniform-parity-array-i](https://github.com/Dhruvkumar-09/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 ## Array
 |  |
