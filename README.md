@@ -244,6 +244,7 @@ git config --global credential.helper manager
 |  |
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0389-find-the-difference](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0389-find-the-difference) |
 ## Math
 |  |
 | ------- |
@@ -274,6 +275,7 @@ git config --global credential.helper manager
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0231-power-of-two) |
+| [0389-find-the-difference](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0389-find-the-difference) |
 ## Recursion
 |  |
 | ------- |
@@ -308,4 +310,12 @@ git config --global credential.helper manager
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0292-nim-game) |
+## Hash Table
+|  |
+| ------- |
+| [0389-find-the-difference](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0389-find-the-difference) |
+## Sorting
+|  |
+| ------- |
+| [0389-find-the-difference](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0389-find-the-difference) |
 <!---LeetCode Topics End-->
