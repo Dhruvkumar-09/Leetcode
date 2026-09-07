@@ -250,6 +250,7 @@ git config --global credential.helper manager
 | ------- |
 | [0009-palindrome-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0009-palindrome-number) |
 | [0231-power-of-two](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0231-power-of-two) |
+| [0263-ugly-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0263-ugly-number) |
 | [0292-nim-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0292-nim-game) |
 | [0877-stone-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0877-stone-game) |
 | [2520-count-the-digits-that-divide-a-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/2520-count-the-digits-that-divide-a-number) |
