@@ -252,6 +252,7 @@ git config --global credential.helper manager
 | [0231-power-of-two](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0231-power-of-two) |
 | [0263-ugly-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0263-ugly-number) |
 | [0292-nim-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0292-nim-game) |
+| [0836-rectangle-overlap](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0877-stone-game) |
 | [2520-count-the-digits-that-divide-a-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/2520-count-the-digits-that-divide-a-number) |
 | [3870-count-commas-in-range](https://github.com/Dhruvkumar-09/Leetcode/tree/master/3870-count-commas-in-range) |
@@ -321,4 +322,8 @@ git config --global credential.helper manager
 |  |
 | ------- |
 | [0389-find-the-difference](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0389-find-the-difference) |
+## Geometry
+|  |
+| ------- |
+| [0836-rectangle-overlap](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0836-rectangle-overlap) |
 <!---LeetCode Topics End-->
