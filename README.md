@@ -261,6 +261,7 @@ git config --global credential.helper manager
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0027-remove-element) |
+| [0033-search-in-rotated-sorted-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0035-search-insert-position) |
 | [0283-move-zeroes](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0283-move-zeroes) |
 | [0877-stone-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0877-stone-game) |
@@ -274,6 +275,7 @@ git config --global credential.helper manager
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0035-search-insert-position) |
 ## Bit Manipulation
 |  |
