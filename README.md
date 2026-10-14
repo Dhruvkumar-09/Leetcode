@@ -238,6 +238,7 @@ git config --global credential.helper manager
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0027-remove-element) |
+| [0088-merge-sorted-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0151-reverse-words-in-a-string](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0283-move-zeroes](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0283-move-zeroes) |
 ## String
@@ -264,6 +265,7 @@ git config --global credential.helper manager
 | [0033-search-in-rotated-sorted-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0035-search-insert-position) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
+| [0088-merge-sorted-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0283-move-zeroes](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0283-move-zeroes) |
 | [0877-stone-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0877-stone-game) |
 | [1470-shuffle-the-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1470-shuffle-the-array) |
@@ -325,6 +327,7 @@ git config --global credential.helper manager
 ## Sorting
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0389-find-the-difference](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0389-find-the-difference) |
 ## Geometry
 |  |
