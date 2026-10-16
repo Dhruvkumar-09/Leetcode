@@ -246,6 +246,7 @@ git config --global credential.helper manager
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0389-find-the-difference](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0389-find-the-difference) |
+| [1446-consecutive-characters](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1446-consecutive-characters) |
 ## Math
 |  |
 | ------- |
