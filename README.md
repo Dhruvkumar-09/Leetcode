@@ -273,11 +273,13 @@ git config --global credential.helper manager
 | [0877-stone-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0877-stone-game) |
 | [1470-shuffle-the-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1470-shuffle-the-array) |
 | [1480-running-sum-of-1d-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1480-running-sum-of-1d-array) |
+| [2574-left-and-right-sum-differences](https://github.com/Dhruvkumar-09/Leetcode/tree/master/2574-left-and-right-sum-differences) |
 | [3875-construct-uniform-parity-array-i](https://github.com/Dhruvkumar-09/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 ## Prefix Sum
 |  |
 | ------- |
 | [1480-running-sum-of-1d-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1480-running-sum-of-1d-array) |
+| [2574-left-and-right-sum-differences](https://github.com/Dhruvkumar-09/Leetcode/tree/master/2574-left-and-right-sum-differences) |
 ## Binary Search
 |  |
 | ------- |
