@@ -248,6 +248,7 @@ git config --global credential.helper manager
 | [0389-find-the-difference](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0389-find-the-difference) |
 | [0504-base-7](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0504-base-7) |
 | [1446-consecutive-characters](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1446-consecutive-characters) |
+| [2828-check-if-a-string-is-an-acronym-of-words](https://github.com/Dhruvkumar-09/Leetcode/tree/master/2828-check-if-a-string-is-an-acronym-of-words) |
 ## Math
 |  |
 | ------- |
@@ -274,6 +275,7 @@ git config --global credential.helper manager
 | [1470-shuffle-the-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1470-shuffle-the-array) |
 | [1480-running-sum-of-1d-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1480-running-sum-of-1d-array) |
 | [2574-left-and-right-sum-differences](https://github.com/Dhruvkumar-09/Leetcode/tree/master/2574-left-and-right-sum-differences) |
+| [2828-check-if-a-string-is-an-acronym-of-words](https://github.com/Dhruvkumar-09/Leetcode/tree/master/2828-check-if-a-string-is-an-acronym-of-words) |
 | [3875-construct-uniform-parity-array-i](https://github.com/Dhruvkumar-09/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 ## Prefix Sum
 |  |
