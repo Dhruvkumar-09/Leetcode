@@ -255,6 +255,7 @@ git config --global credential.helper manager
 | [0009-palindrome-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0009-palindrome-number) |
 | [0231-power-of-two](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0231-power-of-two) |
 | [0263-ugly-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0263-ugly-number) |
+| [0268-missing-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0268-missing-number) |
 | [0292-nim-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0292-nim-game) |
 | [0504-base-7](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0504-base-7) |
 | [0836-rectangle-overlap](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0836-rectangle-overlap) |
@@ -270,6 +271,7 @@ git config --global credential.helper manager
 | [0035-search-insert-position](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0035-search-insert-position) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0088-merge-sorted-array) |
+| [0268-missing-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0283-move-zeroes) |
 | [0877-stone-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0877-stone-game) |
 | [1470-shuffle-the-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1470-shuffle-the-array) |
@@ -288,10 +290,12 @@ git config --global credential.helper manager
 | [0033-search-in-rotated-sorted-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0035-search-insert-position) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
+| [0268-missing-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0268-missing-number) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0268-missing-number) |
 | [0389-find-the-difference](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0389-find-the-difference) |
 ## Recursion
 |  |
@@ -330,11 +334,13 @@ git config --global credential.helper manager
 ## Hash Table
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0268-missing-number) |
 | [0389-find-the-difference](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0389-find-the-difference) |
 ## Sorting
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0088-merge-sorted-array) |
+| [0268-missing-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0268-missing-number) |
 | [0389-find-the-difference](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0389-find-the-difference) |
 ## Geometry
 |  |
