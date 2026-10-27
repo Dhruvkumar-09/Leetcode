@@ -241,6 +241,7 @@ git config --global credential.helper manager
 | [0088-merge-sorted-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0151-reverse-words-in-a-string](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0283-move-zeroes](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0283-move-zeroes) |
+| [0832-flipping-an-image](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0832-flipping-an-image) |
 ## String
 |  |
 | ------- |
@@ -273,6 +274,7 @@ git config --global credential.helper manager
 | [0088-merge-sorted-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0268-missing-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0283-move-zeroes) |
+| [0832-flipping-an-image](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0832-flipping-an-image) |
 | [0877-stone-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0877-stone-game) |
 | [1470-shuffle-the-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1470-shuffle-the-array) |
 | [1480-running-sum-of-1d-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1480-running-sum-of-1d-array) |
@@ -297,6 +299,7 @@ git config --global credential.helper manager
 | [0231-power-of-two](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0268-missing-number) |
 | [0389-find-the-difference](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0389-find-the-difference) |
+| [0832-flipping-an-image](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0832-flipping-an-image) |
 ## Recursion
 |  |
 | ------- |
@@ -346,4 +349,12 @@ git config --global credential.helper manager
 |  |
 | ------- |
 | [0836-rectangle-overlap](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0836-rectangle-overlap) |
+## Matrix
+|  |
+| ------- |
+| [0832-flipping-an-image](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0832-flipping-an-image) |
+## Simulation
+|  |
+| ------- |
+| [0832-flipping-an-image](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0832-flipping-an-image) |
 <!---LeetCode Topics End-->
