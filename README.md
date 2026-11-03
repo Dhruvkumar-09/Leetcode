@@ -262,6 +262,7 @@ git config --global credential.helper manager
 | [0836-rectangle-overlap](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0877-stone-game) |
 | [2520-count-the-digits-that-divide-a-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/2520-count-the-digits-that-divide-a-number) |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/Dhruvkumar-09/Leetcode/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [3870-count-commas-in-range](https://github.com/Dhruvkumar-09/Leetcode/tree/master/3870-count-commas-in-range) |
 | [3875-construct-uniform-parity-array-i](https://github.com/Dhruvkumar-09/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 ## Array
@@ -280,6 +281,7 @@ git config --global credential.helper manager
 | [1480-running-sum-of-1d-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1480-running-sum-of-1d-array) |
 | [2574-left-and-right-sum-differences](https://github.com/Dhruvkumar-09/Leetcode/tree/master/2574-left-and-right-sum-differences) |
 | [2828-check-if-a-string-is-an-acronym-of-words](https://github.com/Dhruvkumar-09/Leetcode/tree/master/2828-check-if-a-string-is-an-acronym-of-words) |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/Dhruvkumar-09/Leetcode/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [3875-construct-uniform-parity-array-i](https://github.com/Dhruvkumar-09/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 ## Prefix Sum
 |  |
