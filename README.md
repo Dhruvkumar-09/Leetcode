@@ -254,6 +254,7 @@ git config --global credential.helper manager
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0009-palindrome-number) |
+| [0048-rotate-image](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0048-rotate-image) |
 | [0231-power-of-two](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0231-power-of-two) |
 | [0263-ugly-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0263-ugly-number) |
 | [0268-missing-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0268-missing-number) |
@@ -271,6 +272,7 @@ git config --global credential.helper manager
 | [0027-remove-element](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0027-remove-element) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0035-search-insert-position) |
+| [0048-rotate-image](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0048-rotate-image) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0268-missing-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0268-missing-number) |
@@ -355,6 +357,7 @@ git config --global credential.helper manager
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0048-rotate-image) |
 | [0832-flipping-an-image](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0832-flipping-an-image) |
 ## Simulation
 |  |
