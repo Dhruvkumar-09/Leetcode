@@ -249,6 +249,7 @@ git config --global credential.helper manager
 | [0151-reverse-words-in-a-string](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0389-find-the-difference](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0389-find-the-difference) |
 | [0504-base-7](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0504-base-7) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1446-consecutive-characters](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1446-consecutive-characters) |
 | [2828-check-if-a-string-is-an-acronym-of-words](https://github.com/Dhruvkumar-09/Leetcode/tree/master/2828-check-if-a-string-is-an-acronym-of-words) |
 ## Math
@@ -371,4 +372,8 @@ git config --global credential.helper manager
 |  |
 | ------- |
 | [0191-number-of-1-bits](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0191-number-of-1-bits) |
+## Stack
+|  |
+| ------- |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 <!---LeetCode Topics End-->
