@@ -245,6 +245,7 @@ git config --global credential.helper manager
 ## String
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0067-add-binary) |
 | [0151-reverse-words-in-a-string](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0389-find-the-difference](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0389-find-the-difference) |
 | [0504-base-7](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0504-base-7) |
@@ -255,6 +256,7 @@ git config --global credential.helper manager
 | ------- |
 | [0009-palindrome-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0048-rotate-image) |
+| [0067-add-binary](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0067-add-binary) |
 | [0231-power-of-two](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0231-power-of-two) |
 | [0263-ugly-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0263-ugly-number) |
 | [0268-missing-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0268-missing-number) |
@@ -300,6 +302,7 @@ git config --global credential.helper manager
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0067-add-binary) |
 | [0191-number-of-1-bits](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0268-missing-number) |
@@ -362,6 +365,7 @@ git config --global credential.helper manager
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0067-add-binary) |
 | [0832-flipping-an-image](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0832-flipping-an-image) |
 ## Divide and Conquer
 |  |
