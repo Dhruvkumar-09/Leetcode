@@ -247,6 +247,7 @@ git config --global credential.helper manager
 | ------- |
 | [0067-add-binary](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0067-add-binary) |
 | [0151-reverse-words-in-a-string](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0205-isomorphic-strings](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0389-find-the-difference](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0389-find-the-difference) |
 | [0504-base-7](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0504-base-7) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
@@ -347,6 +348,7 @@ git config --global credential.helper manager
 ## Hash Table
 |  |
 | ------- |
+| [0205-isomorphic-strings](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0268-missing-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0268-missing-number) |
 | [0389-find-the-difference](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0389-find-the-difference) |
 ## Sorting
