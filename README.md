@@ -253,6 +253,7 @@ git config --global credential.helper manager
 | [0504-base-7](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0504-base-7) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1446-consecutive-characters](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1446-consecutive-characters) |
+| [1544-make-the-string-great](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1544-make-the-string-great) |
 | [2828-check-if-a-string-is-an-acronym-of-words](https://github.com/Dhruvkumar-09/Leetcode/tree/master/2828-check-if-a-string-is-an-acronym-of-words) |
 | [3174-clear-digits](https://github.com/Dhruvkumar-09/Leetcode/tree/master/3174-clear-digits) |
 ## Math
@@ -382,5 +383,6 @@ git config --global credential.helper manager
 |  |
 | ------- |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1544-make-the-string-great](https://github.com/Dhruvkumar-09/Leetcode/tree/master/1544-make-the-string-great) |
 | [3174-clear-digits](https://github.com/Dhruvkumar-09/Leetcode/tree/master/3174-clear-digits) |
 <!---LeetCode Topics End-->
