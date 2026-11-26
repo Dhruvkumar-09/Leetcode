@@ -271,6 +271,7 @@ git config --global credential.helper manager
 | [0836-rectangle-overlap](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0877-stone-game) |
 | [2520-count-the-digits-that-divide-a-number](https://github.com/Dhruvkumar-09/Leetcode/tree/master/2520-count-the-digits-that-divide-a-number) |
+| [3360-stone-removal-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/3360-stone-removal-game) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/Dhruvkumar-09/Leetcode/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [3870-count-commas-in-range](https://github.com/Dhruvkumar-09/Leetcode/tree/master/3870-count-commas-in-range) |
 | [3875-construct-uniform-parity-array-i](https://github.com/Dhruvkumar-09/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
@@ -375,6 +376,7 @@ git config --global credential.helper manager
 | [0067-add-binary](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0067-add-binary) |
 | [0832-flipping-an-image](https://github.com/Dhruvkumar-09/Leetcode/tree/master/0832-flipping-an-image) |
 | [3174-clear-digits](https://github.com/Dhruvkumar-09/Leetcode/tree/master/3174-clear-digits) |
+| [3360-stone-removal-game](https://github.com/Dhruvkumar-09/Leetcode/tree/master/3360-stone-removal-game) |
 ## Divide and Conquer
 |  |
 | ------- |
